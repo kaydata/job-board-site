@@ -1,0 +1,23 @@
+/* app/assets/stylesheets/custom.css.scss */
+.card {
+    border-radius: 15px;
+    transition: transform 0.2s;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  .card-title {
+    color: #343a40;
+  }
+  .card-subtitle {
+    font-size: 0.9rem;
+  }
+  .card-text {
+    font-size: 0.85rem;
+  }
+  .jumbotron {
+    background-color: #f8f9fa;
+    padding: 2rem 1rem;
+    border-radius: 0.3rem;
+  }
+  

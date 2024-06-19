@@ -1,0 +1,7 @@
+<h1><%= @job.title %></h1>
+<p><%= @job.description %></p>
+<p>Company: <%= @job.company %></p>
+<p>Location: <%= @job.location %></p>
+<p>Company Website: <%= link_to @job.company_website, @job.company_website, target: '_blank' %></p>
+<%= link_to 'Apply', @job.company_website, class: 'btn btn-primary', target: '_blank' %>
+<%= link_to 'Back', jobs_path, class: 'btn btn-secondary' %>
